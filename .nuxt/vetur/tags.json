@@ -1,0 +1,32 @@
+{
+  "CvEducation": {
+    "description": "Auto imported from components/cv-education.vue"
+  },
+  "LazyCvEducation": {
+    "description": "Auto imported from components/cv-education.vue"
+  },
+  "CvExperience": {
+    "description": "Auto imported from components/cv-experience.vue"
+  },
+  "LazyCvExperience": {
+    "description": "Auto imported from components/cv-experience.vue"
+  },
+  "CvPresentation": {
+    "description": "Auto imported from components/cv-presentation.vue"
+  },
+  "LazyCvPresentation": {
+    "description": "Auto imported from components/cv-presentation.vue"
+  },
+  "CvSkills": {
+    "description": "Auto imported from components/cv-skills.vue"
+  },
+  "LazyCvSkills": {
+    "description": "Auto imported from components/cv-skills.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  }
+}

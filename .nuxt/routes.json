@@ -1,0 +1,14 @@
+[
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cvnuxt\\\\pages\\\\blog.vue",
+    "chunkName": "pages/blog"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cvnuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
