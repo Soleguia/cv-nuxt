@@ -1,12 +1,13 @@
 <template>
-  <div class="cv">
+  <main class="main cv">
     
     <!-- <NuxtLink to="/blog">
       Blog
     </NuxtLink> -->
 
-    <div class="cv__header">
+    <div class="cv__presentation">
       <cv-presentation></cv-presentation>
+      <cv-sections-nav></cv-sections-nav>
     </div>
     <div class="cv__content">
       <cv-education v-if="cvEducation"></cv-education>
@@ -14,12 +15,12 @@
       <cv-skills v-if="cvSkills"></cv-skills>
     </div>
 
-  </div>
+  </main>
 </template>
 
 <script>
 export default {
-  layout: 'custom',
+  layout: 'cv',
   data: () => {
     return {
       cvEducation: false,
@@ -32,20 +33,25 @@ export default {
 
 <style>
   @import url('~/assets/scss/cv.scss');
-  .main {
-    background-color: #999;
-  }
+
   .cv {
     display: grid;
     grid-template-columns: 10vw 1fr 10vw;
     grid-template-rows: min-content 1fr;
     grid-template-areas: '. header . '
                           '. content .';
-    width: 80vw;
-    height: 80vh;
+    align-items: center;
+    background-color: #999;
   }
-  .cv__header {
-    grid-area: header;
+  .cv__presentation {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 4rem;
+    background-color: rgba(250,250,250, .3);
+    border-radius: 2rem;
   }
   .cv__content {
     grid-area: content;

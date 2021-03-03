@@ -1,4 +1,10 @@
 {
+  "CvContact": {
+    "description": "Auto imported from components/cv-contact.vue"
+  },
+  "LazyCvContact": {
+    "description": "Auto imported from components/cv-contact.vue"
+  },
   "CvEducation": {
     "description": "Auto imported from components/cv-education.vue"
   },
@@ -16,6 +22,12 @@
   },
   "LazyCvPresentation": {
     "description": "Auto imported from components/cv-presentation.vue"
+  },
+  "CvSectionsNav": {
+    "description": "Auto imported from components/cv-sections-nav.vue"
+  },
+  "LazyCvSectionsNav": {
+    "description": "Auto imported from components/cv-sections-nav.vue"
   },
   "CvSkills": {
     "description": "Auto imported from components/cv-skills.vue"

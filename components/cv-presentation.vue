@@ -1,5 +1,5 @@
 <template>
-    <header class="cv__presentation">
+    <header class="presentation">
         <h1>Josu Soleguia</h1>
         <h2>Desarrollador Front End</h2>
     </header>
@@ -11,9 +11,14 @@ export default {
 </script>
 
 <style scoped>
-    .cv__presentation {
+    .presentation {
         position: relative;
-        padding: 2rem 2rem 4rem;
-        background-color: white;
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .presentation h1,
+    .presentation h2 {
+        width: 100%;
     }
 </style>
