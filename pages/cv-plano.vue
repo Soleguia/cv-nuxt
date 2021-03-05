@@ -33,7 +33,7 @@ export default {
     display: block;
   }
   .cv__section {
-    padding: 2rem;
+    padding: 4rem 6vw;
   }
   .cv__presentation {
     
@@ -45,6 +45,7 @@ export default {
     background-color: rgba(173, 216, 230, .3);
   }
   .cv__skills {
-    background-color: rgba(52, 1, 53, .1);
+    color: white;
+    background-color: var(--dark-slate-blue);
   }
 </style>

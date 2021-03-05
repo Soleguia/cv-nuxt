@@ -87,11 +87,12 @@
         display: grid;
         gap: 1rem;
         grid-template-rows: min-content 1fr;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
     }
     .skills_title {
-        grid-column: 1 / span 5;
+        grid-column: 1 / -1;
         margin-bottom: 2rem;
+        font-size: 2rem;
     }
     .skills_group {
 
@@ -100,6 +101,7 @@
         display: block;
         margin-bottom: .25rem;
         padding: .5rem 1rem;
-        background-color: rgba(230, 230, 20, .1);
+        color: var(--dark-slate-blue);
+        background-color: var(--cultured);
     }
 </style>
