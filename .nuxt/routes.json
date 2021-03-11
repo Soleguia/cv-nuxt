@@ -3,18 +3,14 @@
     "name": "blog",
     "path": "/blog",
     "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cv-nuxt\\\\pages\\\\blog.vue",
-    "chunkName": "pages/blog"
-  },
-  {
-    "name": "cv-plano",
-    "path": "/cv-plano",
-    "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cv-nuxt\\\\pages\\\\cv-plano.vue",
-    "chunkName": "pages/cv-plano"
+    "chunkName": "pages/blog",
+    "_name": "_5fc4957f"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cv-nuxt\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_311356c5"
   }
 ]
