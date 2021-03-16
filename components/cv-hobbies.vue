@@ -1,6 +1,6 @@
 <template>
     <section class="skills">
-        <h3 class="section__title">Conocimientos</h3>
+        <h3 class="section__title">Aficiones</h3>
         <div class="skills_list">
             <div class="skills_group">
                 <article class="skill">

@@ -1,6 +1,6 @@
 <template>
     <section class="experiences_list">
-        <h3>Experiencia</h3>
+        <h3 class="section__title">Experiencia</h3>
         <article class="experience">
             <h4 class="experience__position">Desarrollador Front End</h4>
             <h5 class="experience__company">Ideable Solutions (Enero 2019 - Actualidad)</h5>
@@ -53,6 +53,7 @@
     .experience__description {
         padding-left: 1rem;
         width: 90ch;
+        max-width: 100%;
     }
     .experience:before,
     .experience:after {
@@ -72,9 +73,19 @@
         box-shadow: .2rem ​.2rem 0 .1rem rgba(var(--rgb-china-pink), .2);
     }
     .experience:nth-child(odd):before {
-        left: 1.25rem;
+        left: 1rem;
     }
-    
+    .experience:after {
+        top: 2.5rem;
+        left: 1rem;
+        width: 1px;
+        height: 90%;
+        border-left: .4rem dashed var(--china-pink);
+        transform: rotateZ(6deg);
+    }
+    .experience:nth-child(even):after {
+        transform: rotateZ(-6deg);
+    }
     .experience:nth-child(odd) {
         padding-left: 5rem;
     }

@@ -3,14 +3,17 @@
     <div class="cv__section cv__presentation">
       <cv-presentation></cv-presentation>
     </div>
-    <div class="cv__section cv__education">
-      <cv-education></cv-education>
-    </div>
     <div class="cv__section cv__experience">
       <cv-experience></cv-experience>
     </div>
+    <div class="cv__section cv__education">
+      <cv-education></cv-education>
+    </div>
     <div class="cv__section cv__skills">
       <cv-skills></cv-skills>
+    </div>
+    <div class="cv__section cv__hobbies">
+      <cv-hobbies></cv-hobbies>
     </div>
 
   </main>
@@ -34,6 +37,10 @@ export default {
   }
   .cv__section {
     padding: 4rem 6vw;
+  }
+  .section__title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
   .cv__presentation {
     

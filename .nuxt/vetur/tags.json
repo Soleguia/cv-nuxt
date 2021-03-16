@@ -17,6 +17,12 @@
   "LazyCvExperience": {
     "description": "Auto imported from components/cv-experience.vue"
   },
+  "CvHobbies": {
+    "description": "Auto imported from components/cv-hobbies.vue"
+  },
+  "LazyCvHobbies": {
+    "description": "Auto imported from components/cv-hobbies.vue"
+  },
   "CvPresentation": {
     "description": "Auto imported from components/cv-presentation.vue"
   },

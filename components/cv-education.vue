@@ -1,7 +1,12 @@
 <template>
     <section class="education">
-        <h3>Formación</h3>
+        <h3 class="section__title">Formación</h3>
         
+        <article class="education__milestone">
+            <h4 class="education__title">Taller PostCSS con Joan León <time class="education__date">(Febrero 2021)</time></h4>
+            <h5 class="education__place">Joan León</h5>
+        </article>
+
         <article class="education__milestone">
             <h4 class="education__title">Curso Vue, Vuex, Vue-router y Testing (30h) <time class="education__date">(Octubre - Noviembre 2020)</time></h4>
             <h5 class="education__place">Fictizia.com</h5>
