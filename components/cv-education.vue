@@ -37,9 +37,16 @@
     .education__milestone {
         margin-top: 2rem;
     }
-    .education__title {}
+    .education__title {
+        margin-bottom: .4rem;
+        font-size: 1.6rem;
+    }
     .education__date {
         font-size: .85em;
     }
-    .education__place {}
+    .education__place {
+        margin-bottom: .5rem;
+        padding-left: 1rem;
+        font-size: 1.2rem;
+    }
 </style>

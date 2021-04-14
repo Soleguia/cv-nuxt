@@ -1,14 +1,9 @@
 [
   {
-    "name": "blog",
-    "path": "/blog",
-    "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cv-nuxt\\\\pages\\\\blog.vue",
-    "chunkName": "pages/blog"
-  },
-  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Program Files\\\\Ampps\\\\www\\\\cv-nuxt\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_311356c5"
   }
 ]

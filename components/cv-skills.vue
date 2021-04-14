@@ -98,7 +98,7 @@
         color: var(--dark-slate-blue);
         background-color: var(--cultured);
         transform: rotateZ(-2deg);
-        background-image: linear-gradient( -3deg, rgba(var(--rgb-granny-smith-apple), .4) 15%, transparent 44%);
+        background-image: linear-gradient( -3deg, rgba(var(--rgb-granny-smith-apple), .25) 15%, transparent 44%);
         box-shadow: .1rem .1rem .1rem 0 rgba(var(--rgb-glaucous), .8),
                     -.1rem -.1rem .1rem 0 rgba(var(--rgb-glaucous), .8);
     }
