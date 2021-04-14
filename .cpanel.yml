@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/plboquwp/repositories/cv-nuxt/dist
+    - /bin/cp -R images $DEPLOYPATH
