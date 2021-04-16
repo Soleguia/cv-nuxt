@@ -6,11 +6,10 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 import '..\\assets\\scss\\main.scss'
 
-import _6e25c6e7 from '..\\layouts\\custom.vue'
 import _6c3372e9 from '..\\layouts\\cv.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
 
-const layouts = { "_custom": sanitizeComponent(_6e25c6e7),"_cv": sanitizeComponent(_6c3372e9),"_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_cv": sanitizeComponent(_6c3372e9),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

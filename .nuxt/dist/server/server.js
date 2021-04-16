@@ -1863,35 +1863,6 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
 // EXTERNAL MODULE: ./assets/scss/main.scss
 var main = __webpack_require__(15);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/custom.vue?vue&type=template&id=68e97f97&
-var customvue_type_template_id_68e97f97_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('main',{staticClass:"main",attrs:{"id":"micv"}},[_c('Nuxt')],1)}
-var customvue_type_template_id_68e97f97_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./layouts/custom.vue?vue&type=template&id=68e97f97&
-
-// CONCATENATED MODULE: ./layouts/custom.vue
-
-var script = {}
-function custom_injectStyles (context) {
-  
-  
-}
-
-/* normalize component */
-
-var custom_component = Object(componentNormalizer["a" /* default */])(
-  script,
-  customvue_type_template_id_68e97f97_render,
-  customvue_type_template_id_68e97f97_staticRenderFns,
-  false,
-  custom_injectStyles,
-  null,
-  "013a2d41"
-  
-)
-
-/* harmony default export */ var custom = (custom_component.exports);
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./layouts/cv.vue?vue&type=template&id=7aa38c53&
 var cvvue_type_template_id_7aa38c53_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('Nuxt')}
 var cvvue_type_template_id_7aa38c53_staticRenderFns = []
@@ -1901,7 +1872,7 @@ var cvvue_type_template_id_7aa38c53_staticRenderFns = []
 
 // CONCATENATED MODULE: ./layouts/cv.vue
 
-var cv_script = {}
+var script = {}
 function cv_injectStyles (context) {
   
   
@@ -1910,7 +1881,7 @@ function cv_injectStyles (context) {
 /* normalize component */
 
 var cv_component = Object(componentNormalizer["a" /* default */])(
-  cv_script,
+  script,
   cvvue_type_template_id_7aa38c53_render,
   cvvue_type_template_id_7aa38c53_staticRenderFns,
   false,
@@ -1958,9 +1929,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
 
 
 
-
 const layouts = {
-  "_custom": sanitizeComponent(custom),
   "_cv": sanitizeComponent(cv),
   "_default": sanitizeComponent(layouts_default)
 };
