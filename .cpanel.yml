@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/plboquwp/cv
-    - /bin/cp -R cv-nuxt/dist/. $DEPLOYPATH
+    - export DEPLOYPATH=/home/plboquwp/cv/
+    - /bin/cp -R repositories/cv-nuxt/dist/. $DEPLOYPATH
