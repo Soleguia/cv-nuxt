@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/cv/
-    - /bin/cp -R repositories/cv-nuxt/dist/. $DEPLOYPATH
+    - /bin/cp -R repositories/cv-nuxt/dist $DEPLOYPATH
