@@ -36,6 +36,10 @@
                 <article class="skill">
                     <h4>Vue</h4>
                 </article>
+
+                <article class="skill">
+                    <h4>React</h4>
+                </article>
             </div>
 
             <div class="skills_group">
